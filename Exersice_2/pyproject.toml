@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "scraping-work"
+version = "0.1.0"
+description = ""
+authors = ["Maryna Dudik <marina27043@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+sqlalchemy = "^2.0.34"
+lxml = "^5.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

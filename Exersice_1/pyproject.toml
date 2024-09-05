@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "work-with-mongodb"
+version = "0.1.0"
+description = "\"CRUD operations\""
+authors = ["Maryna Dudik <marina27043@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymongo = "^4.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
